@@ -1,0 +1,23 @@
+{
+  "name": "openui5-skeleton",
+  "version": "1.0.0",
+  "description": "OpenUI5 application skeleton leveraging the UI5 build and development tooling",
+  "scripts": {
+    "build:all": "ui5 build -a",
+    "start": "ui5 serve",
+    "start:open": "ui5 serve -o index.html"
+  },
+  "author": "Peter Muessig",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@openui5/sap.m": "^1.56.0",
+    "@openui5/sap.ui.core": "^1.56.0",
+    "@openui5/sap.ui.layout": "^1.56.0",
+    "@openui5/sap.ui.table": "^1.56.0",
+    "@openui5/sap.ui.unified": "^1.56.0",
+    "@openui5/themelib_sap_belize": "^1.56.0"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^0.2.1"
+  }
+}
